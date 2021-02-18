@@ -1,0 +1,27 @@
+/* We use .module.css so that the styling is only applied to the App and not other components. */
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 370px;
+    margin-top: 50px;
+}
+
+@media (max-width: 770px){
+    .container{
+        margin: 0 10%;
+    }
+
+    .image{
+        width: 100%;
+    }
+}

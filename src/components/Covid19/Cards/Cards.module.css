@@ -1,0 +1,32 @@
+/* .modules.css is used so that the styling is not applied to other components but only the cards component. */
+.container {
+    margin: 50px 0; /* 50 px for top and bottom and 0px for left and right */
+
+}
+
+.card {
+    margin: 0 3% !important;
+    margin-bottom: 20px !important;
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+  }
+
+  .active {
+    border-bottom: 10px solid rgba(252, 113, 0, 0.822);
+  }
+  
+  .recovered{
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+  }
+  
+  .deaths{
+    border-bottom: 10px solid rgba(255, 0, 0, 1);
+  }
+
+  @media (max-width: 770px){
+    .card{
+      margin: 2% 0 !important;
+    }
+  }

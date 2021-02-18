@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background-color: seashell;
+    border-radius: 20px;
+}
+
+@media(max-width: 770px){
+    .container{
+       width: 120%;
+    }
+   
+}
